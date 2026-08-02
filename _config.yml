@@ -1,10 +1,9 @@
-title: "Your Name – e-Portfolio"
+title: "Connor Goodwin – e-Portfolio"
 description: "A Masters e-Portfolio documenting coursework and project work."
-author: "Your Name"
+author: "Connor Goodwin"
 
 # If your GitHub Pages repo is NOT named <username>.github.io, set baseurl to "/<repo-name>"
-# e.g. baseurl: "/e-Portfolio"
-baseurl: ""
+baseurl: "/Portfolio"
 url: ""
 
 markdown: kramdown
