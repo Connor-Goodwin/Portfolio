@@ -1,0 +1,18 @@
+title: "Your Name – e-Portfolio"
+description: "A Masters e-Portfolio documenting coursework and project work."
+author: "Your Name"
+
+# If your GitHub Pages repo is NOT named <username>.github.io, set baseurl to "/<repo-name>"
+# e.g. baseurl: "/e-Portfolio"
+baseurl: ""
+url: ""
+
+markdown: kramdown
+permalink: /posts/:title/
+
+exclude:
+  - templates
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

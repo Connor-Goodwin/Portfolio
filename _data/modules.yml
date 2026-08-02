@@ -1,0 +1,6 @@
+# List every module area here so it appears as a link on the homepage.
+# "slug" must match the module page's folder/permalink and the "module" value
+# used in that module's posts front matter.
+- name: Intelligent Agents
+  slug: intelligent-agents
+  description: "July - October 2026"
