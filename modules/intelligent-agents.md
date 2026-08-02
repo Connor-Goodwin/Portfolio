@@ -5,5 +5,4 @@ module: intelligent-agents
 permalink: /modules/intelligent-agents/
 ---
 
-Optional introduction for this module: what it covers, learning outcomes, or
-any context you want visible above the list of work below.
+This module provides a critical insight into the theory, tools and techniques of intelligent agents, dealing with both the individual agents and with their interactions.
