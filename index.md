@@ -6,9 +6,7 @@ permalink: /
 
 ## About
 
-Write a short introduction here: your name, the Masters programme you're
-studying, and what this e-portfolio is for. This section is a good place to
-summarise your academic background and interests.
+I currently work as a Cyber Security Analyst, alongside this role I am studying an MSc in Artificial Intelligence at University of Essex. This page is my e-Portfolio for this course and showcases some of the work I have completed in my studies.
 
 ## Module Areas
 
