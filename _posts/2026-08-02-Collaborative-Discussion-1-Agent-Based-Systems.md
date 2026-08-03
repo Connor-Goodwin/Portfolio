@@ -13,5 +13,7 @@ This growth has also been driven partly by the breadth of applications these age
 
 References:
 Chopra, A. (2025). Adoption of AI and Agentic Systems: Value, Challenges, and Pathways. [online] California Management Review Insights. Available at: https://cmr.berkeley.edu/2025/08/adoption-of-ai-and-agentic-systems-value-challenges-and-pathways/.
+
 McKinsey & Company (2025). The state of AI: How organizations are rewiring to capture value. [online] McKinsey & Company. Available at: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai.
+
 Zuo, A. (2025). The Rise of Autonomous AI Agents: Automating Complex Tasks. International Journal of Artificial Intelligence for Science (IJAI4S), 1(2). doi:10.63619/ijai4s.v1i2.007.
