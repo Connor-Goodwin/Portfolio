@@ -15,6 +15,8 @@ A Jekyll-based Masters e-Portfolio, built for GitHub Pages.
   (module listing page), `post.html` (individual piece of work).
 - `assets/css/style.css` — site styling.
 - `assets/js/tag-filter.js` — powers the label filter buttons on module pages.
+- `assets/attachments/` — files (PDFs, docs, images) linked or embedded from
+  post content.
 - `templates/` — copy-and-fill templates for adding new modules/posts
   (excluded from the built site).
 
@@ -34,10 +36,36 @@ A Jekyll-based Masters e-Portfolio, built for GitHub Pages.
 2. Fill in `title`, `date`, `module` (must match a module slug), and
    `summary`.
 3. Optionally add `tags` (a list of labels, e.g. `tags: [research, reflection]`).
-4. Write the content below the front matter in Markdown.
+4. Write the content below the front matter in Markdown. See "Adding
+   attachments to a post" below if you want to link or embed a file.
 
 The post will automatically appear on its module's listing page — no other
 file needs to be edited.
+
+## Adding attachments to a post
+
+Drop the file into `assets/attachments/`, then reference it from the post's
+Markdown body:
+
+- **Downloadable file** (PDF, Word doc, etc.) — a plain link, opens or
+  downloads depending on the browser:
+  ```markdown
+  [Meeting Notes (PDF)]({{ "/assets/attachments/meeting-notes.pdf" | relative_url }})
+  ```
+- **Image** — note the leading `!`, which embeds it inline in the post
+  instead of just linking to it:
+  ```markdown
+  ![Screenshot of the agent architecture]({{ "/assets/attachments/architecture.png" | relative_url }})
+  ```
+
+Always wrap the path in `{{ "..." | relative_url }}` rather than writing it
+bare (e.g. `/assets/attachments/file.pdf`) — this site's `baseurl` is set to
+`/Portfolio`, and a bare path will 404 once deployed (the same bug that
+briefly broke this site's CSS). `relative_url` prepends the baseurl for
+you; Jekyll processes Liquid in post bodies by default, so this works
+directly in Markdown content, no front matter needed. Embedded images are
+automatically scaled to fit and given rounded corners by the site's
+existing `.post-content img` styling.
 
 ## Labels and filtering
 

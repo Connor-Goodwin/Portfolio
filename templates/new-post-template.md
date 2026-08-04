@@ -10,7 +10,12 @@
      slug in _data/modules.yml and the corresponding page in /modules/).
   4. Optionally list "tags" (labels) for this post — they appear as chips
      on the listing and become clickable filters on the module page.
-  5. Write the full content of the piece of work below the front matter.
+  5. To attach a file (PDF, doc, image), drop it in /assets/attachments/
+     and link it from the content below, e.g.:
+       [Meeting Notes (PDF)]({{ "/assets/attachments/meeting-notes.pdf" | relative_url }})
+     Always use relative_url like this rather than a bare path — see
+     README.md "Adding attachments to a post" for why.
+  6. Write the full content of the piece of work below the front matter.
      It will appear automatically on that module's page, sorted by date.
 -->
 ---
