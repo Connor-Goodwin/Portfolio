@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Initial Group Meeting Notes"
-date: 2026-08-02
+date: 2026-08-04
 module: intelligent-agents
 tags: [Group Project, Meeting Notes]
 summary: "Notes taken from Initial Team Meeting"
