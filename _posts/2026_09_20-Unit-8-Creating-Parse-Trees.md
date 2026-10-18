@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Unit 8 - Creating Parse Trees"
+date: 2026-09-20
+module: intelligent-agents
+tags: [Formative Activities]
+summary: "My solution for the formative activity in Unit 8"
+---
+
 # Unit 8 - Creating Parse Trees
 
 ## Task

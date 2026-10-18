@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Unit 6 - Creating Agent Dialogues"
+date: 2026-09-06
+module: intelligent-agents
+tags: [Formative Activities]
+summary: "My solution for the formative activity in Unit 6"
+---
+
 # Unit 6 - Creating Agent Dialogues
 
 ## Task:
