@@ -7,7 +7,7 @@ tags: [Group Project, Meeting Notes]
 summary: "Notes taken during Fifth Team Meeting"
 ---
 
-These are my notes from our Fifth team meeting that occurred at 15:00 30/08/26, it was attended by Myself, Khadijah and Imoh.
+These are my notes from our Fifth team meeting that occurred at 15:00 30/08/26, it was attended by all members of the group.
 
 Before this meeting all members were required to complete the final write-up of each of their sections.
 
